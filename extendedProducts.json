@@ -1,0 +1,10 @@
+{
+  "v": 1,
+  "products": [
+    "product-id": "ubibot-test-001",
+    "setup-features": {
+      "is-support-bluetooth-setup": true,
+      "is-support-ap-setup": true
+    }
+  ]
+}
