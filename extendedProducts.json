@@ -5,6 +5,21 @@
     "setup-features": {
       "is-support-bluetooth-setup": true,
       "is-support-ap-setup": true
+    },
+    "setup-flows": {
+      "device-network-wifi": null,
+      "device-network-simcard": {
+        "images": {
+          "product": "./test001/product.png",
+          "guide-power-on": "./test001/guide-power-on.gif"
+        },
+        "messages": {
+          "guide-power-on": "./test001/localized.json#TEST001.GUIDE_POWER_ON",
+          "guide-insert-simcard": "./test001/localized.json#TEST001.GUIDE_INSERT_SIMCARD"
+        }
+      },
+      "device-network-simcard-autoconfig": null,
+      "device-network-ethernet": null
     }
   ]
 }
