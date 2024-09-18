@@ -22,7 +22,7 @@
       },
       "localized-file": "test001/localized.json",
       "localized-messages": {
-        "guide-power-on": "guide-power-on",
+        "guide-enable-ble-mode": "guide-power-on",
         "guide-insert-simcard": "guide-insert-simcard"
       }
     }
