@@ -10,6 +10,6 @@
 
 # 多国格式
 
-使用simplelocalized.io的multilanguage json模式
+使用simplelocalized.io的multi language json模式
 
 
