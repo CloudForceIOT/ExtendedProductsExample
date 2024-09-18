@@ -1,6 +1,5 @@
 {
   "v": 1,
-  "localized": "test001/localized.json",
   "products": [
     {
       "product-ids": [
@@ -21,7 +20,8 @@
         "product": "./test001/example.png",
         "guide-power-on": "./test001/guide-power-on.gif"
       },
-      "messages": {
+      "localized-file": "test001/localized.json",
+      "localized-messages": {
         "guide-power-on": "guide-power-on",
         "guide-insert-simcard": "guide-insert-simcard"
       }
