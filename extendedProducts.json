@@ -17,8 +17,8 @@
         "simcard-auto-config": true
       },
       "images": {
-        "product": "./test001/example.png",
-        "guide-power-on": "./test001/guide-power-on.gif"
+        "product": "test001/example.png",
+        "guide-power-on": "test001/guide-power-on.gif"
       },
       "localized-file": "test001/localized.json",
       "localized-messages": {
