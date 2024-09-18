@@ -15,7 +15,7 @@
         "wifi": true,
         "ethernet": false,
         "simcard": false,
-        "simcard-autoconfig": true
+        "simcard-auto-config": true
       },
       "images": {
         "product": "./test001/example.png",
