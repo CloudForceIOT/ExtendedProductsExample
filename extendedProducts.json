@@ -1,6 +1,6 @@
 {
   "v": 1,
-  "localized": "./test001/localized.json",
+  "localized": "test001/localized.json",
   "products": [
     {
       "product-ids": [
