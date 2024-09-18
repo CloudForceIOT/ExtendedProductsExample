@@ -3,8 +3,8 @@
   "products": [
     {
       "product-ids": [
-        "ubibot-localtest-001", 
-        "ubibot-localtest-001-v2"
+        "ubibot-extest-001", 
+        "ubibot-extest-001-v2"
       ],
       "setup-features": {
         "is-support-bluetooth-setup": true,
