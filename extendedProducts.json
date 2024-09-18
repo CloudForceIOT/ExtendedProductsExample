@@ -18,12 +18,12 @@
         "simcard-autoconfig": true
       },
       "images": {
-        "product": "./test001/product.png",
+        "product": "./test001/example.png",
         "guide-power-on": "./test001/guide-power-on.gif"
       },
       "messages": {
-        "guide-power-on": "TEST001.GUIDE_POWER_ON",
-        "guide-insert-simcard": "TEST001.GUIDE_INSERT_SIMCARD"
+        "guide-power-on": "guide-power-on",
+        "guide-insert-simcard": "guide-insert-simcard"
       }
     }
   ]
