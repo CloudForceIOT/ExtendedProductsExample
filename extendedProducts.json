@@ -1,5 +1,6 @@
 {
   "v": 1,
+  "localized": "./test001/localized.json",
   "products": [
     {
       "product-ids": [
@@ -18,8 +19,8 @@
             "guide-power-on": "./test001/guide-power-on.gif"
           },
           "messages": {
-            "guide-power-on": "./test001/localized.json#TEST001.GUIDE_POWER_ON",
-            "guide-insert-simcard": "./test001/localized.json#TEST001.GUIDE_INSERT_SIMCARD"
+            "guide-power-on": "TEST001.GUIDE_POWER_ON",
+            "guide-insert-simcard": "TEST001.GUIDE_INSERT_SIMCARD"
           }
         },
         "device-network-simcard-autoconfig": null,
