@@ -7,24 +7,23 @@
         "ubibot-extest-001", 
         "ubibot-extest-001-v2"
       ],
-      "setup-features": {
-        "is-support-bluetooth-setup": true,
-        "is-support-ap-setup": true
+      "setup-methods": {
+        "bluetooth": true,
+        "ap": true
       },
-      "setup-flows": {
-        "device-network-wifi": null,
-        "device-network-simcard": {
-          "images": {
-            "product": "./test001/product.png",
-            "guide-power-on": "./test001/guide-power-on.gif"
-          },
-          "messages": {
-            "guide-power-on": "TEST001.GUIDE_POWER_ON",
-            "guide-insert-simcard": "TEST001.GUIDE_INSERT_SIMCARD"
-          }
-        },
-        "device-network-simcard-autoconfig": null,
-        "device-network-ethernet": null
+      "device-network": {
+        "wifi": true,
+        "ethernet": false,
+        "simcard": false,
+        "simcard-autoconfig": true
+      },
+      "images": {
+        "product": "./test001/product.png",
+        "guide-power-on": "./test001/guide-power-on.gif"
+      },
+      "messages": {
+        "guide-power-on": "TEST001.GUIDE_POWER_ON",
+        "guide-insert-simcard": "TEST001.GUIDE_INSERT_SIMCARD"
       }
     }
   ]
