@@ -19,7 +19,11 @@
       "images": {
         "product": "test001/example.png",
         "guide-enable-ble-mode": "test001/example.gif",
+        "guide-enable-ble-mode-ethernet": "test001/example.gif",
+        "guide-enable-ble-mode-simcard-custom": "test001/example.gif",
         "guide-enable-ap-mode": "test001/example.gif",
+        "guide-enable-ap-mode-ethernet": "test001/example.gif",
+        "guide-enable-ap-mode-simcard-custom": "test001/example.gif",
         "guide-enable-simcard-auto-config-mode": "test001/example.gif",
         "insert-simcard": "test001/example.png",
         "insert-ethernet": "test001/example.png"
@@ -27,7 +31,11 @@
       "localized-file": "test001/localized.json",
       "localized-messages": {
         "guide-enable-ble-mode": "guide-enable-ble-mode",
+        "guide-enable-ble-mode-ethernet": "guide-enable-ble-mode-ethernet",
+        "guide-enable-ble-mode-simcard-custom": "guide-enable-ble-mode-simcard-custom",
         "guide-enable-ap-mode": "guide-enable-ap-mode",
+        "guide-enable-ap-mode-ethernet": "guide-enable-ap-mode-ethernet",
+        "guide-enable-ap-mode-simcard-custom": "guide-enable-ap-mode-simcard-custom",
         "guide-enable-simcard-auto-config-mode": "guide-enable-simcard-auto-config-mode"
       }
     }
