@@ -12,8 +12,8 @@
       },
       "device-network": {
         "wifi": true,
-        "ethernet": false,
-        "simcard": false,
+        "ethernet": true,
+        "simcard": true,
         "simcard-auto-config": true
       },
       "images": {
