@@ -1,10 +1,12 @@
 {
   "en": {
     "guide-enable-ble-mode": "Foo 1",
-    "guide-enable-ap-mode": "Foo 2"
+    "guide-enable-ap-mode": "Foo 2",
+    "guide-enable-simcard-auto-config-mode": "Foo 3"
   },
   "zh": {
     "guide-enable-ble-mode": "占位 1",
-    "guide-enable-ap-mode": "占位 2"
+    "guide-enable-ap-mode": "占位 2",
+    "guide-enable-simcard-auto-config-mode": "占位 3"
   }
 }
