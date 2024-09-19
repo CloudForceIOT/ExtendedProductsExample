@@ -6,7 +6,7 @@
         "ubibot-extest-001", 
         "ubibot-extest-001-v2"
       ],
-      "families": ["extes"],
+      "families": ["extes", "sp1"],
       "setup-methods": {
         "bluetooth": true,
         "ap": true
