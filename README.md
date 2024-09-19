@@ -7,6 +7,11 @@
 
 [数据入口](https://cloudforceiot.github.io/ExtendedProductsExample/extendedProducts.json)
 
+# 服务器入口
+
+configs/extended-products/all
+
+例如: https://api-cdn.ubibot.cn/configs/extended-products/all
 
 # 多国格式
 
