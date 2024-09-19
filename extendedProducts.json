@@ -17,13 +17,14 @@
         "simcard-auto-config": true
       },
       "images": {
-        "product": "test001/example.gif",
-        "guide-power-on": "test001/guide-power-on.gif"
+        "product": "test001/example.svg",
+        "guide-enable-ble-mode": "test001/example.gif",
+        "guide-enable-ap-mode": "test001/example.gif"
       },
       "localized-file": "test001/localized.json",
       "localized-messages": {
-        "guide-enable-ble-mode": "guide-power-on",
-        "guide-insert-simcard": "guide-insert-simcard"
+        "guide-enable-ble-mode": "guide-enable-ble-mode",
+        "guide-enable-ap-mode": "guide-enable-ap-mode"
       }
     }
   ]
