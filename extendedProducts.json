@@ -19,12 +19,14 @@
       "images": {
         "product": "test001/example.svg",
         "guide-enable-ble-mode": "test001/example.gif",
-        "guide-enable-ap-mode": "test001/example.gif"
+        "guide-enable-ap-mode": "test001/example.gif",
+        "guide-enable-simcard-auto-config-mode": "test001/example.gif"
       },
       "localized-file": "test001/localized.json",
       "localized-messages": {
         "guide-enable-ble-mode": "guide-enable-ble-mode",
-        "guide-enable-ap-mode": "guide-enable-ap-mode"
+        "guide-enable-ap-mode": "guide-enable-ap-mode",
+        "guide-enable-simcard-auto-config-mode": "guide-enable-simcard-auto-config-mode"
       }
     }
   ]
