@@ -1,8 +1,10 @@
 {
   "en": {
-    "guide-power-on": "Example"
+    "guide-enable-ble-mode": "Foo 1",
+    "guide-enable-ap-mode": "Foo 2"
   },
   "zh": {
-    "guide-power-on": "占位"
+    "guide-enable-ble-mode": "占位 1",
+    "guide-enable-ap-mode": "占位 2"
   }
 }
