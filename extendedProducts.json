@@ -17,10 +17,12 @@
         "simcard-auto-config": true
       },
       "images": {
-        "product": "test001/example.svg",
+        "product": "test001/example.png",
         "guide-enable-ble-mode": "test001/example.gif",
         "guide-enable-ap-mode": "test001/example.gif",
-        "guide-enable-simcard-auto-config-mode": "test001/example.gif"
+        "guide-enable-simcard-auto-config-mode": "test001/example.gif",
+        "insert-simcard": "test001/example.png",
+        "insert-ethernet": "test001/example.png"
       },
       "localized-file": "test001/localized.json",
       "localized-messages": {
