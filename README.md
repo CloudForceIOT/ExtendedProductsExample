@@ -5,14 +5,31 @@
 
 # 数据入口
 
-[数据入口](https://cloudforceiot.github.io/ExtendedProductsExample/extended-products)
+[数据入口](https://cloudforceiot.github.io/ExtendedProductsExample/extendedProducts.json)
 
 # 服务器入口
 
 configs/extended-products
 
-例如: https://api-cdn.ubibot.cn/configs/extended-products
+例如: https://api-cdn.ubibot.cn/configs/extended-products/all
 
+建议的目录结构是
+
+configs
+ |
+ +-- extended-products
+   |
+   +-- all (即extendedProducts.json文件的内容)
+   |
+   +-- test001 (产品目录，如产品图片，多国文件)
+     |
+     +-- localized.json
+     +-- xxx.png
+     +-- xxx.gif
+     +-- 其它资源文件...
+   |   
+   +-- 其它产能品目录...
+     
 # 多国格式
 
 使用simplelocalized.io的multi language json模式
@@ -42,7 +59,7 @@ configs/extended-products
 
 ## 其它说明
 
-README.md, index.html, extendedProducts.json不需要放到服务器，extendedProducts.json文件只是为了编辑的语法识别方便
+README.md, index.html不需要放到服务器
 
 ## 附录
 
