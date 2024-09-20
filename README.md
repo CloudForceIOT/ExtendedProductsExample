@@ -58,6 +58,8 @@ configs
 
 10. 多国key取值，除中文会使用secondary部分外，其余只取primary，例如 zh，zh_Hant，en, pt, ...
 
+11. 资源目录不支持 相对 或 绝对 路径，以配置文件的所在目录为base
+
 
 ## 其它说明
 
