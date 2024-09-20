@@ -11,7 +11,7 @@
 
 configs/extended-products
 
-例如: https://api-cdn.ubibot.cn/configs/extended-products/all
+例如: https://api-cdn.ubibot.cn/configs/extended-products
 
 # 多国格式
 
