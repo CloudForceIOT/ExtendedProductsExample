@@ -15,6 +15,7 @@ configs/extended-products
 
 建议的目录结构是
 
+```
 configs
  |
  +-- extended-products
@@ -29,6 +30,7 @@ configs
      +-- 其它资源文件...
    |   
    +-- 其它产能品目录...
+```
      
 # 多国格式
 
