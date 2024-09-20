@@ -5,11 +5,11 @@
 
 # 数据入口
 
-[数据入口](https://cloudforceiot.github.io/ExtendedProductsExample/extendedProducts.json)
+[数据入口](https://cloudforceiot.github.io/ExtendedProductsExample/extended-products)
 
 # 服务器入口
 
-configs/extended-products/all
+configs/extended-products
 
 例如: https://api-cdn.ubibot.cn/configs/extended-products/all
 
@@ -39,6 +39,10 @@ configs/extended-products/all
 
 10. 多国key取值，除中文会使用secondary部分外，其余只取primary，例如 zh，zh_Hant，en, pt, ...
 
+
+## 其它说明
+
+README.md, index.html, extendedProducts.json不需要放到服务器，json后缀文件只是为了编辑的语法识别方便
 
 ## 附录
 
