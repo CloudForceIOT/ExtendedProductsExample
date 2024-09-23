@@ -1,5 +1,11 @@
 {
-  "product-profiles": [],
-  "extended-modules": [],
-  "extended-products": []
+  "product-profiles": [
+    "https://api-cdn.ubibot.cn/config/product-profiles/all"
+  ],
+  "extended-modules": [
+    "https://api-cdn.ubibot.cn/config/extended-modules"
+  ],
+  "extended-products": [
+    "https://api-cdn.ubibot.cn/config/extended-products/all"
+  ]
 }
