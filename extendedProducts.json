@@ -39,6 +39,44 @@
         "guide-enable-ap-mode-simcard-custom": "guide-enable-ap-mode-simcard-custom",
         "guide-enable-simcard-auto-config-mode": "guide-enable-simcard-auto-config-mode"
       }
+    },
+    {
+      "product-ids": [
+        "ubibot-ws3-a"
+      ],
+      "families": ["ws3"],
+      "setup-methods": {
+        "bluetooth": true,
+        "ap": false
+      },
+      "device-network": {
+        "wifi": false,
+        "ethernet": false,
+        "simcard": false,
+        "simcard-auto-config": true
+      },
+      "images": {
+        "product": "ubibot-ws3-a/product.png",
+        "guide-enable-ble-mode": null,
+        "guide-enable-ble-mode-ethernet": null,
+        "guide-enable-ble-mode-simcard-custom": null,
+        "guide-enable-ap-mode": null,
+        "guide-enable-ap-mode-ethernet": null,
+        "guide-enable-ap-mode-simcard-custom": null,
+        "guide-enable-simcard-auto-config-mode": "ubibot-ws3-a/guide-power-on-anime.gif",
+        "insert-simcard": "ubibot-ws3-a/insert-simcard-ws3.png",
+        "insert-ethernet": null
+      },
+      "localized-file": "ubibot-ws3-a/localized.json",
+      "localized-messages": {
+        "guide-enable-ble-mode": "guide-enable-ble-mode",
+        "guide-enable-ble-mode-ethernet": "guide-enable-ble-mode-ethernet",
+        "guide-enable-ble-mode-simcard-custom": "guide-enable-ble-mode-simcard-custom",
+        "guide-enable-ap-mode": "guide-enable-ap-mode",
+        "guide-enable-ap-mode-ethernet": "guide-enable-ap-mode-ethernet",
+        "guide-enable-ap-mode-simcard-custom": "guide-enable-ap-mode-simcard-custom",
+        "guide-enable-simcard-auto-config-mode": "guide-enable-simcard-auto-config-mode"
+      }
     }
   ]
 }
