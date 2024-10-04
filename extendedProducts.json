@@ -46,7 +46,7 @@
       ],
       "families": ["ws3"],
       "setup-methods": {
-        "bluetooth": true,
+        "bluetooth": false,
         "ap": false
       },
       "device-network": {
