@@ -56,7 +56,7 @@
         "simcard-auto-config": true
       },
       "images": {
-        "product": "ubibot-ws3-a/product-v2.png",
+        "product": "ubibot-ws3-a/product.png?v=2",
         "guide-enable-ble-mode": null,
         "guide-enable-ble-mode-ethernet": null,
         "guide-enable-ble-mode-simcard-custom": null,
