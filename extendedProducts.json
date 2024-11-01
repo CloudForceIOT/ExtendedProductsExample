@@ -55,6 +55,9 @@
         "simcard": false,
         "simcard-auto-config": true
       },
+      "device-features": {
+        "built-in-simcard": true
+      },
       "images": {
         "product": "ubibot-ws3-a/product.png?v=2",
         "guide-enable-ble-mode": null,
@@ -64,7 +67,7 @@
         "guide-enable-ap-mode-ethernet": null,
         "guide-enable-ap-mode-simcard-custom": null,
         "guide-enable-simcard-auto-config-mode": "ubibot-ws3-a/guide-power-on-anime.gif",
-        "insert-simcard": "ubibot-ws3-a/insert-simcard-ws3.png",
+        "insert-simcard": null,
         "insert-ethernet": null
       },
       "localized-file": "ubibot-ws3-a/localized.json",
