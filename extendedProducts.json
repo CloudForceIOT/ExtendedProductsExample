@@ -80,6 +80,33 @@
         "guide-enable-ap-mode-simcard-custom": "guide-enable-ap-mode-simcard-custom",
         "guide-enable-simcard-auto-config-mode": "guide-enable-simcard-auto-config-mode"
       }
+    },
+    {
+      "product-ids": [
+        "ubibot-hw1-a"
+      ],
+      "families": ["hw1"],
+      "setup-methods": {
+        "bluetooth": false,
+        "ap": false
+      },
+      "device-network": {
+        "wifi": false,
+        "ethernet": false,
+        "simcard": false,
+        "simcard-auto-config": true
+      },
+      "device-features": {
+        "built-in-simcard": true
+      },
+      "images": {
+        "product": "ubibot-hw1-a/product.png",
+        "guide-enable-simcard-auto-config-mode": "ubibot-hw1-a/guide-power-on-anime.gif"
+      },
+      "localized-file": "ubibot-hw1-a/localized.json",
+      "localized-messages": {
+        "guide-enable-simcard-auto-config-mode": "guide-enable-simcard-auto-config-mode"
+      }
     }
   ]
 }
