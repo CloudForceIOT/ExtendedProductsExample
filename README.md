@@ -23,7 +23,9 @@ https://cloudforceiot.github.io/ExtendedProductsExample/modules-app-extra.json
 ```
 
 product-profiles 对应传统的 https://api-cdn.ubibot.cn/configs/product-profiles/all
+
 extended-modules 对应 extended-modules.json
+
 extended-products/all.json (因为实际部署会以extended-products作为目录，all.json作为文件名，该目录下含有不同型号的子目录)对应 extended-products.json
 
 
