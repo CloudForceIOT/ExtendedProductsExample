@@ -87,6 +87,11 @@ configs
 11. 资源目录不支持 相对 或 绝对 路径，以配置文件的所在目录为base
 
 
+# extended-modules 说明
+
+SIMCard 目前是固定的，仅支持第 0 个元素作为h5功能入口
+
+
 ## 其它说明
 
 README.md, index.html不需要放到服务器
