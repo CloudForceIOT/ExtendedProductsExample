@@ -1,0 +1,40 @@
+{
+    "modules": {
+        "Channel": [
+            {
+                "entry": "https://app-h5.ubibot.cn/ubibot-simcard-renew?customParam=prepay_id=123abc",
+                "id": "Channel.1",
+                "label": "Channel.Extend",
+                "sharedAccess": false
+            },
+            {
+                "entry": "https://app-h5.ubibot.cn/wx-test/?package=prepay_id=123456",
+                "id": "Channel.2",
+                "label": "拓展测试",
+                "sharedAccess": true
+            }
+        ],
+        "Gateway": [
+            {
+                "entry": "https://app-h5.ubibot.cn/ubibot-simcard-renew?customParam=prepay_id=123abc",
+                "id": "Gateway.1",
+                "label": "测试"
+            }
+        ],
+        "Group": [
+            {
+                "entry": "https://app-h5.ubibot.cn/ubibot-simcard-renew?customParam=prepay_id=123abc",
+                "id": "Group.1",
+                "label": "Group.Extend",
+                "sharedAccess": false
+            }
+        ],
+        "Home": [
+            {
+                "entry": "https://app-h5.ubibot.cn/ubibot-simcard-renew?customParam=prepay_id=123abc",
+                "id": "Home.1",
+                "label": "Home.Extend"
+            }
+        ]
+    }
+}
