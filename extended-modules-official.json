@@ -1,0 +1,11 @@
+{
+    "modules": {
+        "SIMCard": [
+            {
+                "entry": "https://app-h5.ubibot.cn/ubibot-h5-simcard",
+                "id": "SIMCard.1",
+                "label": "SIMCard.Extend"
+            }
+        ]
+    }
+}
