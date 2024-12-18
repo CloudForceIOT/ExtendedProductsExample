@@ -34,9 +34,9 @@ extended-modules 对应 extended-modules.json （目前应用于私有服务器�
 extended-products/all.json (目前应用于不更新app主体的情况下扩展产品型号，如hw1；因为实际部署会以extended-products作为目录，all.json作为文件名，该目录下含有不同型号的子目录)对应 extended-products.json
 
 
-# 数据入口
+# 数据例程入口
 
-[数据入口](https://cloudforceiot.github.io/ExtendedProductsExample/extended-products.json)
+[数据入口](https://cloudforceiot.github.io/ExtendedProductsExample/extended-products/all.json)
 
 # 服务器入口
 
