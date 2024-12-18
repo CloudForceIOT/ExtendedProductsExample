@@ -19,7 +19,7 @@ https://cloudforceiot.github.io/ExtendedProductsExample/modules-app-extra.json
     "https://api-cdn.ubibot.cn/configs/product-profiles/all"
   ],
   "extended-modules": [
-    "https://api-cdn.ubibot.cn/configs/extended-modules"
+    "https://app-ext.ubibot.cn/extended-modules/all.json"
   ],
   "extended-products": [
     "https://app-ext.ubibot.cn/extended-products/all.json"
