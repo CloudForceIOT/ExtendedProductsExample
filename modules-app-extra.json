@@ -3,7 +3,7 @@
     "https://api-cdn.ubibot.cn/configs/product-profiles/all"
   ],
   "extended-modules": [
-    "https://api-ext.ubibot.cn/extended-modules/all.json"
+    "https://app-ext.ubibot.cn/extended-modules/all.json"
   ],
   "extended-products": [
     "https://app-ext.ubibot.cn/extended-products/all.json"
