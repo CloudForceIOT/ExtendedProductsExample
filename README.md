@@ -2,6 +2,11 @@
 
 [说明页面入口](https://cloudforceiot.github.io/ExtendedProductsExample/)
 
+
+# dist目录为官网标准配置
+
+modules-app-extra.json 为对应 api 例子
+
 # 例子 总入口 modules-app-extra
 
 如:
