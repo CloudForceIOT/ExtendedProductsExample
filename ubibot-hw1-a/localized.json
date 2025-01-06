@@ -1,8 +1,8 @@
 {
   "en": {
-    "guide-enable-simcard-auto-config-mode": "① Press and hold the power button for 3 seconds to turn on the device.\n② Single-click the power button to light up the screen.\n③ When the screen is on, double-click the configuration button to start activating the device."
+    "guide-enable-simcard-auto-config-mode": "① Single-click the power button to light up the screen.\n② Swipe down the screen to switch to the info page.\n③ Tap the screen QR code to start activating the device."
   },
   "zh": {
-    "guide-enable-simcard-auto-config-mode": "① 长按开关键3秒以开启设备。\n② 单击开关键，点亮屏幕。\n③ 屏幕点亮状态下，双击配置键开始激活设备。"
+    "guide-enable-simcard-auto-config-mode": "① 单击开关键，点亮屏幕。\n② 下滑切换至信息页。\n③ 点击屏幕二维码开始激活设备。"
   }
 }
