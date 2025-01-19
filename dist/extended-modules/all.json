@@ -1,5 +1,13 @@
 {
     "modules": {     
+        "Channel": [
+            {
+                "entry": "https://app-ext.ubibot.cn/ubibot-simcard-map/index.html",
+                "id": "Channel.MapTrack",
+                "label": "ChannelPage.MapTrack",
+                "sharedAccess": false
+            }
+        ],
         "SIMCard": [
             {
                 "entry": "https://app-ext.ubibot.cn/h5/ubibot-h5-simcard/index.html",
