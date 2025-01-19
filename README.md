@@ -109,6 +109,7 @@ configs
 ## platforms: string[]
 
 目前仅作为标记使用，空数组或未提供时，代表支持所有平台
+（仅标记，native实现目前不使用此逻辑）
 
 ## families: string[]
 
