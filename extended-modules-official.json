@@ -1,5 +1,14 @@
 {
-    "modules": {
+    "modules": {     
+        "Channel": [
+            {
+                "entry": "https://app-ext.ubibot.cn/ubibot-simcard-map/index.html",
+                "id": "Channel.MapTrack",
+                "label": "ChannelPage.MapTrack",
+                "sharedAccess": false,
+                "families": ["hw1"]
+            }
+        ],
         "SIMCard": [
             {
                 "entry": "https://app-ext.ubibot.cn/h5/ubibot-h5-simcard/index.html",
@@ -11,7 +20,8 @@
             {
                 "entry": "https://app-ext.ubibot.cn/h5/ubibot-h5-payment/index.html",
                 "id": "Payment.1",
-                "label": "Payment.Extend"
+                "label": "Payment.Extend",
+                "platforms": ["android"]
             }
         ]
     }
