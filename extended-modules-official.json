@@ -18,7 +18,7 @@
         ],        
         "Payment": [
             {
-                "entry": "https://app-ext.ubibot.cn/h5/ubibot-h5-payment/index.html",
+                "entry": "https://app-ext.ubibot.cn/h5/ubibot-h5-payment-android/index.html",
                 "id": "Payment.1",
                 "label": "Payment.Extend",
                 "platforms": ["android"]
