@@ -101,18 +101,27 @@ configs
 
 # extended-modules 说明
 
-SIMCard 目前是固定的，仅支持第 0 个元素作为h5功能入口
+## SIMCard 目前是固定的，仅支持第 0 个元素作为h5功能入口
 
-Payment 目前是固定的，仅支持第 0 个元素作为h5功能入口
+## Payment 目前是固定的，仅支持第 0 个元素作为h5功能入口
 
 
-## 其它说明
+## platforms: string[]
+
+目前仅作为标记使用，空数组或提供时代表支持所有平台
+
+## families: string[]
+
+限定支持的产品family，例如hw1的地图轨迹，空数组或提供时代表支持所有
+
+
+# 其它说明
 
 README.md, index.html不需要放到服务器
 
-## 附录
+# 附录
 
-### 内置的families (不区分大小写，但尽量使用小写以免不测)
+## 内置的families (不区分大小写，但尽量使用小写以免不测)
 
 目前影响概况页的显示模式 以及 是否归类为channel还是gateway（两者互斥，也即使channels不会显示gateways的内容，反之亦然）
 
@@ -137,7 +146,7 @@ ms1p
 aqs1
 ```
 
-### 目前支持的多国keys
+## 目前支持的多国keys
 
 ```
 zh          
