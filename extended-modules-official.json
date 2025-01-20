@@ -4,6 +4,7 @@
             {
                 "entry": "https://app-ext.ubibot.cn/h5/ubibot-h5-map/index.html",
                 "id": "Channel.MapTrack",
+                "index": 1.5,
                 "label": "ChannelPage.MapTrack",
                 "sharedAccess": true,
                 "families": ["hw1"]
