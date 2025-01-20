@@ -106,6 +106,16 @@ configs
 ## Payment 目前是固定的，仅支持第 0 个元素作为h5功能入口
 
 
+## index排序
+
+仅用于channel/gateway的 extended module
+
+可选，不填时默认1000，即位于built-in的module后，相同时根据key排序
+
+若要插入到built-in序列，可使用小数表达，例如glance和info之间即0.5
+
+若要插入到glance前，可使用负数
+
 ## platforms: string[]
 
 目前仅作为标记使用，空数组或未提供时，代表支持所有平台
