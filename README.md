@@ -121,9 +121,18 @@ configs
 目前仅作为标记使用，空数组或未提供时，代表支持所有平台
 （仅标记，native实现目前不使用此逻辑）
 
-## families: string[]
+## supportedFamilies: string[] 与 supportedProductIds
 
 限定支持的产品family，例如hw1的地图轨迹，空数组或未提供时，代表支持所有
+
+以及
+
+限定支持的产品productId，例如gs1-plxx的地图轨迹，空数组或未提供时，代表支持所有
+
+* 两个都为空数组或不填时，代表支持所有
+* 其中一个为空，另一个有指定时，则只支持指定
+* 两个都有指定时，满足其中一个即可
+
 
 ## label的多国化
 
