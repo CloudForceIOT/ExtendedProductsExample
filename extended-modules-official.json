@@ -7,7 +7,14 @@
                 "index": 1.5,
                 "label": "ChannelPage.MapTrack",
                 "sharedAccess": true,
-                "families": ["hw1"]
+                "supportedFamilies": ["hw1"],
+                "supportedProductIds": [
+                    "ubibot-gs1a-p4g",
+                    "ubibot-gs1a-pl4g1rs",
+                    "ubibot-gs1a-pl4g1rs-1ds",
+                    "ubibot-gs1a-pl4g1rs-v2",
+                    "ubibot-gs1-pl4g1rs"
+                ]
             }
         ],
         "SIMCard": [
