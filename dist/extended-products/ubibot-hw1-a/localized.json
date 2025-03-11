@@ -1,8 +1,47 @@
 {
+  "ar": {
+    "guide-enable-simcard-auto-config-mode": "① انقر نقرة واحدة على زر الطاقة لإضاءة الشاشة.\n② مرر الشاشة لأسفل للتبديل إلى صفحة المعلومات.\n③ انقر على رمز الاستجابة السريعة على الشاشة لبدء تنشيط الجهاز."
+  },
+  "de": {
+    "guide-enable-simcard-auto-config-mode": "① Klicken Sie einmal auf die Einschalttaste, um den Bildschirm einzuschalten.\n② Wischen Sie auf dem Bildschirm nach unten, um zur Infoseite zu wechseln.\n③ Tippen Sie auf den QR-Code auf dem Bildschirm, um mit der Aktivierung des Geräts zu beginnen."
+  },
   "en": {
-    "guide-enable-simcard-auto-config-mode": "① Press and hold the power button for 3 seconds to turn on the device.\n② Single-click the power button to light up the screen.\n③ When the screen is on, double-click the configuration button to start activating the device."
+    "guide-enable-simcard-auto-config-mode": "① Single-click the power button to light up the screen.\n② Swipe down the screen to switch to the info page.\n③ Tap the screen QR code to start activating the device."
+  },
+  "es": {
+    "guide-enable-simcard-auto-config-mode": "① Haga clic una vez en el botón de encendido para encender la pantalla.\n② Deslice el dedo hacia abajo en la pantalla para cambiar a la página de información.\n③ Toque el código QR de la pantalla para comenzar a activar el dispositivo."
+  },
+  "fr": {
+    "guide-enable-simcard-auto-config-mode": "① Appuyez une fois sur le bouton d'alimentation pour allumer l'écran.\n② Faites glisser l'écran vers le bas pour accéder à la page d'informations.\n③ Appuyez sur le code QR de l'écran pour commencer à activer l'appareil."
+  },
+  "it": {
+    "guide-enable-simcard-auto-config-mode": "① Fai clic una volta sul pulsante di accensione per accendere lo schermo.\n② Scorri verso il basso sullo schermo per passare alla pagina informativa.\n③ Tocca il codice QR sullo schermo per iniziare ad attivare il dispositivo."
+  },
+  "ja": {
+    "guide-enable-simcard-auto-config-mode": "① 電源ボタンを 1 回クリックして画面を点灯します。\n② 画面を下にスワイプして情報ページに切り替えます。\n③ 画面の QR コードをタップしてデバイスの起動を開始します。"
+  },
+  "ko": {
+    "guide-enable-simcard-auto-config-mode": "① 전원 버튼을 한 번 클릭하여 화면을 켭니다.\n② 화면을 아래로 스와이프하여 정보 페이지로 전환합니다.\n③ 화면 QR 코드를 탭하여 기기를 활성화합니다."
+  },
+  "nl": {
+    "guide-enable-simcard-auto-config-mode": "① Klik één keer op de aan/uit-knop om het scherm te laten oplichten.\n② Veeg omlaag over het scherm om naar de infopagina te gaan.\n③ Tik op de QR-code op het scherm om het apparaat te activeren."
+  },
+  "pl": {
+    "guide-enable-simcard-auto-config-mode": "① Kliknij raz przycisk zasilania, aby podświetlić ekran.\n② Przesuń palcem w dół ekranu, aby przejść do strony informacyjnej.\n③ Stuknij kod QR ekranu, aby rozpocząć aktywację urządzenia."
+  },
+  "pt": {
+    "guide-enable-simcard-auto-config-mode": "① Clique uma vez no botão de energia para iluminar a tela.\n② Deslize a tela para baixo para alternar para a página de informações.\n③ Toque no código QR da tela para começar a ativar o dispositivo."
+  },
+  "ru": {
+    "guide-enable-simcard-auto-config-mode": "① Нажмите кнопку питания один раз, чтобы загорелся экран.\n② Проведите пальцем вниз по экрану, чтобы перейти на страницу информации.\n③ Коснитесь QR-кода на экране, чтобы начать активацию устройства."
+  },
+  "vi": {
+    "guide-enable-simcard-auto-config-mode": "① Nhấp một lần vào nút nguồn để bật sáng màn hình.\n② Vuốt xuống màn hình để chuyển sang trang thông tin.\n③ Chạm vào mã QR trên màn hình để bắt đầu kích hoạt thiết bị."
   },
   "zh": {
-    "guide-enable-simcard-auto-config-mode": "① 长按开关键3秒以开启设备。\n② 单击开关键，点亮屏幕。\n③ 屏幕点亮状态下，双击配置键开始激活设备。"
+    "guide-enable-simcard-auto-config-mode": "① 单击开关键，点亮屏幕。\n② 下滑切换至信息页。\n③ 点击屏幕二维码开始激活设备。"
+  },
+  "zh_Hant": {
+    "guide-enable-simcard-auto-config-mode": "① 點選電源鍵，點亮螢幕。\n② 向下滑動螢幕，切換到資訊頁面。\n③ 點選螢幕二維碼，開始啟動裝置。"
   }
 }
