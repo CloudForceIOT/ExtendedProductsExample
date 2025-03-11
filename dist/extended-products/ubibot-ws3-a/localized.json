@@ -1,20 +1,47 @@
 {
+  "ar": {
+    "guide-enable-simcard-auto-config-mode": "① قم بتوصيل سلك الطاقة لتشغيل الجهاز\n② اضغط على مفتاح الوظيفة\n③ يومض رمز بطاقة SIM ويبدأ في تنشيط الجهاز"
+  },
+  "de": {
+    "guide-enable-simcard-auto-config-mode": "① Schließen Sie das Netzkabel an, um das Gerät einzuschalten\n② Drücken Sie die Funktionstaste\n③ Das SIM-Kartensymbol blinkt und beginnt, das Gerät zu aktivieren"
+  },
   "en": {
-    "guide-enable-ble-mode": "Foo 1",
-    "guide-enable-ble-mode-ethernet": "Foo 1.1",
-    "guide-enable-ble-mode-simcard-custom": "Foo 1.2",
-    "guide-enable-ap-mode": "Foo 2",
-    "guide-enable-ap-mode-ethernet": "Foo 2.1",
-    "guide-enable-ap-mode-simcard-custom": "Foo 2.2",
     "guide-enable-simcard-auto-config-mode": "① Connect the power cord to turn on the device\n② Press the function key\n③ The SIM card icon flashes and starts to activate the device"
   },
+  "es": {
+    "guide-enable-simcard-auto-config-mode": "① Conecte el cable de alimentación para encender el dispositivo\n② Presione la tecla de función\n③ El ícono de la tarjeta SIM parpadea y comienza a activar el dispositivo"
+  },
+  "fr": {
+    "guide-enable-simcard-auto-config-mode": "① Branchez le cordon d'alimentation pour allumer l'appareil\n② Appuyez sur la touche de fonction\n③ L'icône de la carte SIM clignote et commence à activer l'appareil"
+  },
+  "it": {
+    "guide-enable-simcard-auto-config-mode": "① Collegare il cavo di alimentazione per accendere il dispositivo\n② Premere il tasto funzione\n③ L'icona della scheda SIM lampeggia e inizia ad attivare il dispositivo"
+  },
+  "ja": {
+    "guide-enable-simcard-auto-config-mode": "① 電源コードを接続してデバイスの電源をオンにします\n② ファンクションキーを押します\n③ SIMカードアイコンが点滅し、デバイスの起動を開始します"
+  },
+  "ko": {
+    "guide-enable-simcard-auto-config-mode": "① 전원코드를 연결하여 기기를 켭니다.\n② 기능키를 누릅니다.\n③ SIM카드 아이콘이 깜빡이며 기기를 활성화하기 시작합니다."
+  },
+  "nl": {
+    "guide-enable-simcard-auto-config-mode": "① Sluit het netsnoer aan om het apparaat in te schakelen\n② Druk op de functietoets\n③ Het pictogram van de simkaart knippert en begint het apparaat te activeren"
+  },
+  "pl": {
+    "guide-enable-simcard-auto-config-mode": "① Podłącz przewód zasilający, aby włączyć urządzenie\n② Naciśnij klawisz funkcyjny\n③ Ikona karty SIM zacznie migać i rozpocznie aktywację urządzenia"
+  },
+  "pt": {
+    "guide-enable-simcard-auto-config-mode": "① Conecte o cabo de alimentação para ligar o dispositivo\n② Pressione a tecla de função\n③ O ícone do cartão SIM pisca e começa a ativar o dispositivo"
+  },
+  "ru": {
+    "guide-enable-simcard-auto-config-mode": "① Подключите шнур питания, чтобы включить устройство\n② Нажмите функциональную клавишу\n③ Значок SIM-карты мигает и начинает активировать устройство"
+  },
+  "vi": {
+    "guide-enable-simcard-auto-config-mode": "① Kết nối dây nguồn để bật thiết bị\n② Nhấn phím chức năng\n③ Biểu tượng thẻ SIM nhấp nháy và bắt đầu kích hoạt thiết bị"
+  },
   "zh": {
-    "guide-enable-ble-mode": "占位 1",
-    "guide-enable-ble-mode-ethernet": "占位 1.1",
-    "guide-enable-ble-mode-simcard-custom": "占位 1.2",
-    "guide-enable-ap-mode": "占位 2",
-    "guide-enable-ap-mode-ethernet": "占位 2.1",
-    "guide-enable-ap-mode-simcard-custom": "占位 2.2",
     "guide-enable-simcard-auto-config-mode": "① 接入电源线以开启设备\n② 点按功能键\n③ SIM卡图标闪烁并开始激活设备"
+  },
+  "zh_Hant": {
+    "guide-enable-simcard-auto-config-mode": "① 連接電源線開機 ② 按功能鍵 ③ SIM卡圖示閃爍，開始啟動裝置"
   }
 }
