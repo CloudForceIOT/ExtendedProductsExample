@@ -189,7 +189,7 @@ es          Spanish
 ru          Russian
 pt          Portuguese
 nl          Dutch
-kr          
+ko          
 it          Italian
 vi          Vietnamese
 de          German
