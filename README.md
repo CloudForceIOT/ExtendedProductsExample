@@ -189,7 +189,7 @@ es          Spanish
 ru          Russian
 pt          Portuguese
 nl          Dutch
-ko          
+ko          Korean，旧版本写错kr，正确是ko
 it          Italian
 vi          Vietnamese
 de          German
