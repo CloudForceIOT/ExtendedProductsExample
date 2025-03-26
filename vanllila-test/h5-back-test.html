@@ -19,33 +19,25 @@
           content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <title>UbiBot</title>
 
-
-    <script type="module">
-        import UbiH5Bridge from "./h5-bridge/index.mjs";
-        window.UbiH5Bridge = UbiH5Bridge
-    </script>
-
     <style>
         body {
-            background: repeating-linear-gradient(
-                45deg,
-                #f9f9f9,
-                #f9f9f9 10px,
-                #f1f1f1 10px,
-                #f1f1f1 20px
-            );
+            background: repeating-linear-gradient(45deg,
+                    #f9f9f9,
+                    #f9f9f9 10px,
+                    #f1f1f1 10px,
+                    #f1f1f1 20px);
             margin: 0;
             padding: 20px;
             font-family: Arial, sans-serif;
         }
-        
+
         #backforward-list {
             background-color: white;
             padding: 15px;
             border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        
+
         button {
             padding: 8px 16px;
             background-color: #4285f4;
@@ -54,15 +46,16 @@
             border-radius: 4px;
             cursor: pointer;
         }
-        
+
         button:hover {
             background-color: #3367d6;
         }
-        
+
         button:disabled {
             background-color: #cccccc;
             cursor: not-allowed;
         }
+
     </style>
 
     <style>
@@ -75,19 +68,20 @@
             font-size: 14px;
             text-align: center;
         }
-        
+
         .copyleft {
             display: inline-block;
             transform: rotate(180deg);
         }
+
     </style>
-    
+
 
     <script>
         function redirect() {
             // Check if custom URL is provided
             const customUrlInput = document.getElementById('customUrl');
-            
+
             if (customUrlInput && customUrlInput.value.trim() !== '') {
                 // Use custom URL if provided
                 window.location.href = customUrlInput.value.trim();
@@ -105,11 +99,6 @@
                 window.location.href = `./h5-back-test.html?seed=${seed}`;
             }
         }
-
-        async function dismiss() {
-            await UbiH5Bridge.Dismiss()
-        }
-
 
         // Global array to store our navigation history
         const pageHistory = [];
@@ -156,19 +145,46 @@
         // Also update when navigating with back/forward buttons
         window.addEventListener('popstate', updateBackForwardList);
     </script>
+
+
+    <script>
+        function dismiss() {
+            let action = "Dismiss";
+            let params = "{}";
+
+            try {
+                let obj = JSON.parse(params)
+                console.log(`Call action: ${action}`)
+                console.log(obj)
+
+                let messageSerialized = JSON.stringify({ action, ...obj })
+                console.log(messageSerialized)
+
+                let ubiJSHook = window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.ubiJSHook
+                ubiJSHook = ubiJSHook || window.ubiJSHook
+
+                if (ubiJSHook && ubiJSHook.postMessage) {
+                    ubiJSHook.postMessage(messageSerialized)
+                } else {
+                    throw new Error('Error: ubiJSHook not available.');
+                }
+            } catch (e) {
+                window.alert(e.message);
+            }
+        }
+    </script>
 </head>
 
 <body>
+
     <div style="margin-bottom: 20px;">
         <div style="margin-bottom: 10px;">
-            <input 
-                id="customUrl" 
-                type="text" 
-                placeholder="Enter custom URL (optional). Or empty for random." 
-                style="padding: 8px; width: 300px; border: 1px solid #ccc; border-radius: 4px;"
-            />
+            <input id="customUrl"
+                   type="text"
+                   placeholder="Enter custom URL (optional). Or empty for random."
+                   style="padding: 8px; width: 300px; border: 1px solid #ccc; border-radius: 4px;" />
         </div>
-        <button onclick="redirect()">Redirect</button>
+        <button onclick="redirect()">✈️ Redirect</button>
     </div>
 
     <br /><br /><br /><br />
@@ -178,13 +194,14 @@
     </div>
 
     <br /><br /><br /><br />
-    <button onclick="dismiss()">Dismiss by UbiH5Bridge</button>
+    <button onclick="dismiss()">❌ Dismiss by UbiH5Bridge</button>
 
-    
+
     <footer>
-        <span class="copyleft">©</span> 2025 gorebill. All rights reversed. 
+        <span class="copyleft">©</span> 2025 gorebill. All rights reversed.
         <br>
-        <small>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License.</small>
+        <small>This program is free software: you can redistribute it and/or modify it under the terms of the GNU
+            General Public License.</small>
     </footer>
 </body>
 
