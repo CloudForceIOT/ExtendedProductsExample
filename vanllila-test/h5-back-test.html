@@ -19,6 +19,12 @@
           content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <title>UbiBot</title>
 
+
+    <script type="module">
+        import UbiH5Bridge from "./h5-bridge/index.mjs";
+        window.UbiH5Bridge = UbiH5Bridge
+    </script>
+
     <style>
         body {
             background: repeating-linear-gradient(
@@ -100,6 +106,10 @@
             }
         }
 
+        async function dismiss() {
+            await UbiH5Bridge.Dismiss()
+        }
+
 
         // Global array to store our navigation history
         const pageHistory = [];
@@ -166,6 +176,9 @@
     <div id="backforward-list">
         <!-- Navigation history will be displayed here -->
     </div>
+
+    <br /><br /><br /><br />
+    <button onclick="dismiss()">Dismiss by UbiH5Bridge</button>
 
     
     <footer>
