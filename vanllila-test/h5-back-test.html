@@ -1,0 +1,178 @@
+<!--
+ Copyright (c) 2024 gorebill
+ 
+ This software is released under the MIT License.
+ https://opensource.org/licenses/MIT
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- 强制使用服务器校验缓存 -->
+    <meta http-equiv="cache-control"
+          content="no-cache" />
+    <link rel="icon"
+          type="image/svg+xml"
+          href="./logo-no-bg.svg" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>UbiBot</title>
+
+    <style>
+        body {
+            background: repeating-linear-gradient(
+                45deg,
+                #f9f9f9,
+                #f9f9f9 10px,
+                #f1f1f1 10px,
+                #f1f1f1 20px
+            );
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        
+        #backforward-list {
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        button {
+            padding: 8px 16px;
+            background-color: #4285f4;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #3367d6;
+        }
+        
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+    </style>
+
+    <style>
+        /* Add this to your existing styles */
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 14px;
+            text-align: center;
+        }
+        
+        .copyleft {
+            display: inline-block;
+            transform: rotate(180deg);
+        }
+    </style>
+    
+
+    <script>
+        function redirect() {
+            // Check if custom URL is provided
+            const customUrlInput = document.getElementById('customUrl');
+            
+            if (customUrlInput && customUrlInput.value.trim() !== '') {
+                // Use custom URL if provided
+                window.location.href = customUrlInput.value.trim();
+            } else {
+                // Otherwise, use random seed
+                const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
+                let seed = '';
+                const seedLength = 10; // Length of the generated string
+
+                for (let i = 0; i < seedLength; i++) {
+                    const randomIndex = Math.floor(Math.random() * characters.length);
+                    seed += characters.charAt(randomIndex);
+                }
+
+                window.location.href = `./h5-back-test.html?seed=${seed}`;
+            }
+        }
+
+
+        // Global array to store our navigation history
+        const pageHistory = [];
+
+        // Function to update the history display
+        function updateBackForwardList() {
+            const container = document.getElementById('backforward-list');
+
+            // Get current page info
+            const currentUrl = window.location.href;
+            const urlParams = new URLSearchParams(window.location.search);
+            const seed = urlParams.get('seed') || 'none';
+
+            // Add current page to history if it's new
+            if (pageHistory.length === 0 || pageHistory[pageHistory.length - 1] !== currentUrl) {
+                pageHistory.push(currentUrl);
+            }
+
+            // Create the HTML content
+            let content = `
+                <h3>Navigation History</h3>
+                <p><strong>Current URL:</strong> ${currentUrl}</p>
+                <p><strong>Current Seed:</strong> ${seed}</p>
+                <p><strong>History Length:</strong> ${history.length}</p>
+                <p><strong>Can Go Back:</strong> ${history.length > 1 ? 'Yes' : 'No'}</p>
+                
+                <div>
+                    <button onclick="history.back()" ${history.length <= 1 ? 'disabled' : ''}>Go Back</button>
+                    <button onclick="history.forward()">Go Forward</button>
+                </div>
+                
+                <h4>Pages Visited This Session:</h4>
+                <code style="white-space: pre-line;">
+                    ${pageHistory.map(url => `${url}`).join('\n')}
+                </code>
+            `;
+
+            container.innerHTML = content;
+        }
+
+        // Run when the page loads
+        window.addEventListener('load', updateBackForwardList);
+
+        // Also update when navigating with back/forward buttons
+        window.addEventListener('popstate', updateBackForwardList);
+    </script>
+</head>
+
+<body>
+    <div style="margin-bottom: 20px;">
+        <div style="margin-bottom: 10px;">
+            <input 
+                id="customUrl" 
+                type="text" 
+                placeholder="Enter custom URL (optional). Or empty for random." 
+                style="padding: 8px; width: 300px; border: 1px solid #ccc; border-radius: 4px;"
+            />
+        </div>
+        <button onclick="redirect()">Redirect</button>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <div id="backforward-list">
+        <!-- Navigation history will be displayed here -->
+    </div>
+
+    
+    <footer>
+        <span class="copyleft">©</span> 2025 gorebill. All rights reversed. 
+        <br>
+        <small>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License.</small>
+    </footer>
+</body>
+
+</html>
