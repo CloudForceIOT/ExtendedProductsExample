@@ -1,0 +1,20 @@
+{
+  "en": {
+    "guide-enable-ble-mode": "Foo 1",
+    "guide-enable-ble-mode-ethernet": "Foo 1.1",
+    "guide-enable-ble-mode-simcard-custom": "Foo 1.2",
+    "guide-enable-ap-mode": "Foo 2",
+    "guide-enable-ap-mode-ethernet": "Foo 2.1",
+    "guide-enable-ap-mode-simcard-custom": "Foo 2.2",
+    "guide-enable-simcard-auto-config-mode": "Foo 3"
+  },
+  "zh": {
+    "guide-enable-ble-mode": "占位 1",
+    "guide-enable-ble-mode-ethernet": "占位 1.1",
+    "guide-enable-ble-mode-simcard-custom": "占位 1.2",
+    "guide-enable-ap-mode": "占位 2",
+    "guide-enable-ap-mode-ethernet": "占位 2.1",
+    "guide-enable-ap-mode-simcard-custom": "占位 2.2",
+    "guide-enable-simcard-auto-config-mode": "占位 3"
+  }
+}
